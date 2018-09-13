@@ -53,9 +53,9 @@ while bigRuns <= maxRuns:
     # Say how long it took and how many iterations we needed.
     bigRuns += 1
 
-print("Total iterations: " + str(totalIterations) + "    Total time: " + str(round(totalTime, 5))
+print("Total iterations: " + str(totalIterations) + "    Total time: " + str(round(completeTime, 5))
       + " seconds\nAverage iteration count is: " + str(round((totalIterations /maxRuns), 0))
-      + "    Average runtime is: " + str(round((totalTime/maxRuns), 5)) + " seconds\nTotal within circle is: "
+      + "    Average runtime is: " + str(round((completeTime/maxRuns), 5)) + " seconds\nTotal within circle is: "
       + str(totalPasses) + " hits.")
 # Declare everything in order of: Iteration total, Time total, Avg iterations, Avg runtime, Total hits in circle
 
